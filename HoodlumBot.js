@@ -162,3 +162,11 @@ catch
 string token = "NDM3NzM4NTUxMDc4Mjg5NDE5.Db6bjQ.P_JT_FRPChd-2LL3Tn6E6PiC4R8");
 await _client.LoginAsync(TokenType.Bot, NDM3NzM4NTUxMDc4Mjg5NDE5.Db6bjQ.P_JT_FRPChd-2LL3Tn6E6PiC4R8);
 await _client.StartAsync();
+
+  
+    "id": "437738551078289419",
+    "username": "Hoodlumbot",
+    "discriminator": "1337",
+  
+    "verified": true,
+    
