@@ -148,3 +148,14 @@ def compute_overwrites(base_permissions, member, channel):
 def compute_permissions(member, channel):
     base_permissions = compute_base_permissions(member, channel.guild)
     return compute_overwrites(base_permissions, member, channel)
+{
+    discord.ExecuteAndWait(async () =>
+    {
+        await discord.Connect("TNDM3NzM4NTUxMDc4Mjg5NDE5.Db6bjQ.P_JT_FRPChd-2LL3Tn6E6PiC4R8
+", TokenType.Bot);   
+    });
+}
+catch
+{
+
+}
