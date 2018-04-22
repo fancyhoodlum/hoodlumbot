@@ -169,4 +169,19 @@ await _client.StartAsync();
     "discriminator": "1337",
   
     "verified": true,
+      
+      def exchange_code(code):
+  data = {
+    'client_id': CLIENT_ID,
+    'client_secret': CLIENT_SECRET,
+    'grant_type': 'authorization_code',
+    'code': code,
+    'redirect_uri': REDIRECT_URI
+  }
+  headers = {
+    'Content-Type': 'application/x-www-form-urlencoded'
+  }
+  r = requests.post('%s/oauth2/token' % API_ENDPOINT, data, headers)
+  r.raise_for_status()
+  return r.json()
     
