@@ -96,7 +96,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
      }
 });{
   
-  string token = "YOUR TOKEN";
+  string token = "NDM3NzM4NTUxMDc4Mjg5NDE5.Db6bjQ.P_JT_FRPChd-2LL3Tn6E6PiC4R8";
 await _client.LoginAsync(TokenType.Bot, token);
 await _client.StartAsync();
 }
